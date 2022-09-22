@@ -27,6 +27,12 @@
         foreach (Person person in people)
         {
             string line = $"{person.FirstName} | {person.LastName} | {person.Address}";
+            sw.WriteLine(line);
         }
+    }
+
+    foreach (Person person in people)
+    {
+        Console.WriteLine(person);
     }
 }
